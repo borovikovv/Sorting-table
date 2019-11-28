@@ -1,0 +1,49 @@
+table, th, td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+}
+
+table {
+  font-family: sans-serif;
+  border-spacing: 5px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.headers-page {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 20px 0;
+}
+.form {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background: white;
+  color: black;
+}
+
+.filter-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.filter-btn-name {
+  font-family: sans-serif;
+  margin-right: 10px;
+}
