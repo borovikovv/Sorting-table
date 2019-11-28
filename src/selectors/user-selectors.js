@@ -13,13 +13,6 @@ export const getFilterProfession = (state) => {
     return state.filterJobs
 };
 
-export const findDuplicateProfession = (users) => {
-    const prof = users.reduce((acc, user) => {
-        return acc.includes(user.profession) ? acc : [...acc, user.profession]
-    }, []);
-    return prof.map((p, index) => <option key={index}>{p}</option>)
-};
-
 export const activeFilters = (state) => {
   return state.activeFilter
 };

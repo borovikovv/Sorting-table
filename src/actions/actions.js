@@ -1,11 +1,11 @@
 import { FILTER_HOBBY, FILTER_PROFESSION } from "../constans/constans";
 
-export const filterProfAC = (prof) => ({
+export const filterProfession = (profession) => ({
     type: FILTER_PROFESSION,
-    payload: prof
+    payload: profession
 });
 
-export const filterHobbyAC = (hobby) => ({
+export const filterHobby = (hobby) => ({
    type:  FILTER_HOBBY,
     payload: hobby
 });

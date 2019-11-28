@@ -22,7 +22,8 @@ table {
 .headers-page {
   display: flex;
   justify-content: center;
-  margin: 40px 0 20px 0;
+  align-self: center;
+  flex-direction: row;
 }
 .form {
   display: flex;
@@ -40,7 +41,7 @@ table {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .filter-btn-name {

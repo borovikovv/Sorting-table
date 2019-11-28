@@ -20,12 +20,12 @@ const Table = ({users}) => {
         <div className='table'>
             <table>
                 <thead>
-                <tr className='table-row'>
-                    <th className='table-header'>Name</th>
-                    <th className='table-header'>Profession</th>
-                    <th className='table-header'>Gender</th>
-                    <th className='table-header'>Age</th>
-                    <th className='table-header'>Hobby</th>
+                <tr>
+                    <th>Name</th>
+                    <th>Profession</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Hobby</th>
                 </tr>
                 </thead>
                 <tbody>
